@@ -1,2 +1,48 @@
 
 /* Your CSS Code here. */
+#item1{
+	background-color:green;
+	width:100px;
+	height:100px;
+	font-size:50px;
+}
+#item2{
+	background-color:orangered;
+	width:100px;
+	height:100px;
+	font-size:50px;
+}
+#item3{
+	background-color:blue;
+	width:100px;
+	height:100px;
+	font-size:50px;
+}
+.holder{
+	display:flex;
+	justify-content:center;
+}
+.same{
+	background-color:green;
+	width:100px;
+	height:100px;
+	font-size:50px;
+}
+#one{
+	background-color:orangered;
+	width:100px;
+	height:100px;
+	font-size:50px;
+}
+.item{
+	display:flex;
+}
+#one-more{
+	background-color:blue;
+	height:100px;
+	width:100px;
+	font-size:50px;
+}
+.two-shot{
+	justify-items:center;
+}
