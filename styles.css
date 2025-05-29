@@ -20,6 +20,7 @@
 }
 .holder{
 	display:flex;
+	flex-wrap:wrap;
 	justify-content:center;
 }
 .same{
@@ -36,6 +37,7 @@
 }
 .item{
 	display:flex;
+	flex-wrap:wrap;
 }
 #one-more{
 	background-color:blue;
@@ -44,5 +46,7 @@
 	font-size:50px;
 }
 .two-shot{
-	justify-items:center;
+	 display: flex;                  /* Enable Flexbox */
+    justify-content: center;        /* Center items inside */
+    align-items: center;
 }
